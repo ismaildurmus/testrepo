@@ -1,4 +1,4 @@
-ass testrepo {
+class testrepo {
 	if $environment == 'production' {
 		notify { 'default-message' :
 			message => "This is the production environment"
